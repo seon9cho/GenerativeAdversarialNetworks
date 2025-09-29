@@ -1,5 +1,7 @@
 # Generative Adversarial Networks
 
+![animation](graphics/gan_animation.gif)
+
 [Generative Adversarial Networks (GANs)](https://arxiv.org/pdf/1406.2661) are a class of machine learning models introduced by Ian Goodfellow and colleagues in 2014. A GAN consists of two neural networks, trained simultaneously in a competitive setting often described as a two-player minimax game:
 
 - **Generator $G$**: Learns to map random noise (typically sampled from a simple distribution like a standard normal) into data samples that resemble the training data. Its goal is to produce outputs that look “real.”
